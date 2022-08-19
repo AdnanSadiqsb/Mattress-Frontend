@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;400&family=Patua+One&family=Satisfy&display=swap');
+*{
+    font-family: 'Nunito Sans', sans-serif;
+
+}.service-cont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.service-item{
+    height: 200px;
+    width: 210px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    color: #984AE8;
+
+    gap: 1rem;
+}
+.service-item h2{
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+}
+
+.service-item i{
+    font-size: 3rem;
+
+}
+
+.whattsap-logo{
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    right: 0;
+    bottom:3rem;
+    z-index: 1;
+}
+.whattsap-logo img{
+    width: 100%;
+}

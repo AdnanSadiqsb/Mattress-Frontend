@@ -1,0 +1,31 @@
+.tbl-row{
+    position: relative;
+}
+.row-item{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 2rem;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    transform:translateY(100%);
+    opacity: 0;
+    user-select: none;
+    transition: all 1s ease-in;
+
+}
+.row-item i{
+    font-size: 1.9rem;
+    cursor: pointer;
+
+}
+
+.tbl-row:hover .row-item{
+    opacity: 1;
+    user-select: auto;
+    transform: translateY(0%);
+}
+

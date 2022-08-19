@@ -1,0 +1,26 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&family=Satisfy&display=swap');
+
+.sec-heading{
+    font-size: 3.4rem;
+    text-align: center;
+    color: #984AE8;
+    margin: 1rem 2rem;
+    padding: 0.5rem 0.5rem;
+    border-top: 1px solid rgba(0, 0, 0, 0.308);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.308);
+    
+
+    font-family: 'Satisfy', cursive;
+
+
+
+}
+
+.endMargin{
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+li{
+    cursor: pointer;
+}

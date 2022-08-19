@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;400&family=Patua+One&family=Satisfy&display=swap');
+*{
+    font-family: 'Nunito Sans', sans-serif;
+
+}
+.contact-cont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.contact-info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0rem;
+    width: 100%;
+}
+.contact-info iframe{
+    margin-top: 2rem;
+    height: 500px;
+    width: 100%;
+}
+.contact{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0.3rem;
+    width: 70%;
+    margin: auto;
+}
+.contact p{
+    margin-bottom: 0;
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: #984AE8;
+    font-family: 'Nunito Sans', sans-serif;
+    letter-spacing: 0.2rem;
+    font-family: 'Patua One', cursive ;
+    padding-left: 1rem;
+    
+}
+.contact i{
+    font-size: 1.5rem;
+    color: rgb(18, 182, 97);
+}
+.quote{
+    font-family: 'Satisfy', cursive;
+
+    margin-top: 20px;
+    opacity: 0.6;
+    font-size: 30px;
+}
