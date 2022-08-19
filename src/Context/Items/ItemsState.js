@@ -2,7 +2,7 @@ import React, { useContext, useState } from "react";
 
 import itemContext from "./ItemContext";
 const ItemState=(props)=>{
-    const host="http://localhost:5000"
+    const host="https://mattress-app.herokuapp.com"
 
 const [items,setItems]=useState([])
 const [handleError, setHandleError]=useState(true)
