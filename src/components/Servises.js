@@ -9,7 +9,7 @@ export default function Servises() {
   return (
     <div>
         <div className="whattsap-logo" >
-            <a target='_blank' href="https://wa.me/92156318530" rel="noreferrer">
+            <a target='_blank' href="https://wa.me/923036699056" rel="noreferrer">
 
             <img src={whattsappImg} alt="" />
             </a>
