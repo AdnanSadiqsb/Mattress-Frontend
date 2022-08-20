@@ -33,12 +33,13 @@ export default function Servises() {
       </div>
       <h1 id='compaines' className='sec-heading'>Avaliable Companies</h1>
         <div className="service-cont">
+        <div className="service-item">
+                <img style={{width:'90%'}} src={duraimg} alt="" />
+            </div>
             <div className="service-item">
                 <img src={fiveStar} alt="" />
             </div>
-            <div className="service-item">
-                <img style={{width:'90%'}} src={duraimg} alt="" />
-            </div>
+        
             <div className="service-item">
                 <img style={{width:'90%'}} src={moltyimf} alt="" />
             </div>
