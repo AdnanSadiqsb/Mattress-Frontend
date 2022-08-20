@@ -7,7 +7,7 @@ import { useContext } from 'react'
 import alertContext from '../Context/alert/AlertContext'
 import loadingIMg from '../images/Loading.gif'
 
-import pic from '../images/pic2.png'
+import pic from '../images/pic4.png'
 export default function Shop() {
     const [loading, setLoading]=useState(true)
 

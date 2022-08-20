@@ -1,7 +1,7 @@
 import React,{useState} from 'react'
 import { useEffect } from 'react'
 import {Link} from 'react-scroll'
-import logoImg from '../images/logo.png'
+import logoImg from '../images/nav-logo3.png'
 import '../css/navbar.css'
 import { useNavigate } from 'react-router-dom'
 
