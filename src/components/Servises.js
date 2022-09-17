@@ -31,7 +31,7 @@ export default function Servises() {
 
         </div>
       </div>
-      <h1 id='compaines' className='sec-heading'>Avaliable Companies</h1>
+      {/* <h1 id='compaines' className='sec-heading'>Avaliable Companies</h1>
         <div className="service-cont">
         <div className="service-item">
                 <img style={{width:'90%'}} src={duraimg} alt="" />
@@ -43,7 +43,7 @@ export default function Servises() {
             <div className="service-item">
                 <img style={{width:'90%'}} src={moltyimf} alt="" />
             </div>
-        </div>
+        </div> */}
 
 
     </div>

@@ -17,7 +17,7 @@ export default function Footer() {
     }
   return (
     <div className='footer'>
-      <h4>copyright @2022 <strong onClick={goLogin}>Shkeel Foam</strong> | designed by <u>Adnan Sadiq</u> </h4>
+      <h4>copyright @2022 <strong onClick={goLogin}>Shakeel Fish & Aquarium Center</strong> | designed by <u>Adnan Sadiq</u> </h4>
     </div>
   )
 }

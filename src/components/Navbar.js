@@ -1,7 +1,7 @@
 import React,{useState} from 'react'
 import { useEffect } from 'react'
 import {Link} from 'react-scroll'
-import logoImg from '../images/nav-logo3.png'
+import logoImg from '../images/nav-logo.png'
 import '../css/navbar.css'
 import { useNavigate } from 'react-router-dom'
 
@@ -26,7 +26,7 @@ export default function Navbar() {
 
       <nav className="navbar navbar-expand-lg navbar-dark  " style={{backgroundColor:'#10255D'}}>
   <div className="container-fluid">
-    <Link className="navbar-brand nav-heading" to="/" onClick={goHome}>Fish shop amazing</Link>
+    <Link className="navbar-brand nav-heading" to="/" onClick={goHome}>Shakeel Fish & Aquarium Center</Link>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>
@@ -37,7 +37,7 @@ export default function Navbar() {
           <Link className="nav-link" aria-current="page" to="home">Home</Link>
         </li>
         <li className="nav-item "  data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <Link className="nav-link " aria-current="page" to="furniture">Furniture</Link>
+          <Link className="nav-link " aria-current="page" to="furniture">Fish Accessories</Link>
         </li>
      
         <li className="nav-item "  data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -46,9 +46,9 @@ export default function Navbar() {
         <li className="nav-item"  data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <Link spy={true} smooth={true} className="nav-link " aria-current="page" to="services">Services</Link>
         </li>
-        <li className="nav-item"  data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        {/* <li className="nav-item"  data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <Link spy={true} smooth={true} className="nav-link " aria-current="page" to="compaines">Companies</Link>
-        </li>
+        </li> */}
    
       </ul>
     </div>

@@ -56,8 +56,7 @@ export default function ItemsList() {
     }
     const onChangeHandle=async(e)=>{
         setItem({...item,[e.target.name]:e.target.value})
-        console.log(item)
-
+        
     }
     const handleLogoutfun=()=>{
       console.log("logout")

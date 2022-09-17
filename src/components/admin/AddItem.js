@@ -78,8 +78,8 @@ export default function AddItem() {
           <label htmlFor="category">Category</label>
             <select  name='category' id='category' placeholder='Enter Category' onChange={onChange} >
                 <option disabled selected value=''>Choose Category</option> 
-                <option value='Mattress'>Mattress</option>
-                <option value='Furniture'>furniture</option>
+                <option value='Fish'>Fish</option>
+                <option value='Fish-Accessories'>Fish-Accessories</option> 
 
             </select>
         </div>

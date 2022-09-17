@@ -7,7 +7,7 @@ import { useContext } from 'react'
 import alertContext from '../Context/alert/AlertContext'
 import loadingIMg from '../images/Loading.gif'
 
-import pic from '../images/pic4.png'
+import pic from '../images/fishlogo.png'
 export default function Shop() {
     const [loading, setLoading]=useState(true)
 
@@ -52,13 +52,13 @@ export default function Shop() {
     
           <img  id='home' className='main-img' src={pic} alt="" />
      
-            <h1 className='sec-heading' >Mattress</h1>
+            <h1 className='sec-heading' >Fish</h1>
           <div className="main-cont">
             <div className="shop-cont">
             {items.length===0 && 'no items to diaplay'}
                 {
                     items.map((item)=>{
-                        if(item.category=='Mattress')
+                        if(item.category=='Fish')
                         return <ShopItems key={item._id} item={item}/>
                     })
                 }
@@ -66,13 +66,13 @@ export default function Shop() {
             </div>
             </div>
     
-            <h1 className='sec-heading' id='furniture'>Furniture</h1>
+          <h1 className='sec-heading' id='furniture'>Fish Accessories</h1>
             <div className="main-cont">
             <div className="shop-cont">
                 {items.length===0 && 'no items to diaplay'}
                 {
                     items.map((item)=>{
-                        if(item.category=='Furniture')
+                        if(item.category=='Fish-Accessories')
                         return <ShopItems key={item._id} item={item}/>
                     })
                 }
