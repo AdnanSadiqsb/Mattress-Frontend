@@ -7,7 +7,6 @@ import { useContext } from 'react'
 import alertContext from '../Context/alert/AlertContext'
 import loadingIMg from '../images/Loading.gif'
 
-import pic from '../images/fishlogo.png'
 export default function Shop() {
     const [loading, setLoading]=useState(true)
 
@@ -50,7 +49,6 @@ export default function Shop() {
       return (
         <div>
     
-          <img  id='home' className='main-img' src={pic} alt="" />
      
             <h1 className='sec-heading' >Fish</h1>
           <div className="main-cont">
